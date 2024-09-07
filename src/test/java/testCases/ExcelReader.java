@@ -26,6 +26,7 @@ public class ExcelReader {
 			// Find the header row
 			int columnIndex = -1;
 			//List< String>
+			//THis is somting i added now
 			Map<String,Integer> m1= new HashMap();
 			for (Row row : sheet) {
 				for (Cell cell : row) {
